@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Khaled - Portfolio</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <!-- Font AweSome -->
+    <script src="https://kit.fontawesome.com/49f02d4a75.js" crossorigin="anonymous"></script>
+    <!-- File Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- File main Css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Start background -->
+    <div class="background">
+        <video loop autoplay muted id="video">
+            <source src="./video/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- End background -->
+    <!-- start Personal Data -->
+    <div class="personal-data wow animate__fadeInLeft" data-wow-duration="1.5s">
+        <div class="container p-3">
+            <div class="flex d-flex justify-content-between pt-3 mb-2">
+                <h6>Abdelrahman</h6>
+                <h6>Front End Engineer</h6>
+            </div>
+            <div class="image text-center">
+                <img src="./images/me/photo_2023-04-01_20-50-54.jpg" alt="">
+            </div>
+            <h4 class="text-center pt-3 pb-3">Abdelrahman Khaled
+                Base in Cairo, Egypt</h4>
+            <div class="icons d-flex justify-content-center align-items-center  mb-3">
+                <div class="icon">
+                    <a href="https://github.com/Abdelrahmankhaled12"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/abdelrahman-khaled12/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100012970092361"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="button">
+                <a href="" class="buttonStyle"><i class="fa-regular fa-envelope"></i> HIRE ME!</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Personal Data -->
+    <!-- start Menu -->
+    <div class="menu text-center wow animate__fadeIn" data-wow-duration="3s">
+        <ul>
+            <li><a href="#home" class="active"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#about" class="mb-3 mt-3"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#resume" class="mb-3 mt-3"><i class="fa-solid fa-briefcase"></i></a></li>
+            <li><a href="#services" class="mb-3 mt-3"><i class="fa-solid fa-server"></i></a></li>
+            <li><a href="#skills" class="mb-3 mt-3"><i class="fa-solid fa-wand-magic-sparkles"></i></a></li>
+            <li><a href="#portfolio" class="mb-3 mt-3"><i class="fa-solid fa-table-cells"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </div>
+    <!-- End Menu -->
+    <!-- Start Button Menu -->
+    <button class="btnMenu wow animate__fadeIn" data-wow-duration="3s" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars-staggered"></i></button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Menu</h5>
+            <button type="button" class="btnclose text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="fa-solid fa-x"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container">
+                <div>
+                    <ul class="ul-1">
+                        <li><a href="#home" class="active mt-4"><i class="fa-solid fa-house me-1"></i> Home</a></li>
+                        <li><a href="#about" class="mb-4 mt-4"><i class="fa-solid fa-user me-1"></i> About</a></li>
+                        <li><a href="#resume" class="mb-4 mt-4"><i class="fa-solid fa-briefcase me-1"></i> Resume</a>
+                        </li>
+                        <li><a href="#services" class="mb-4 mt-4"><i class="fa-solid fa-server me-1"></i> Services</a>
+                        </li>
+                        <li><a href="#skills" class="mb-4 mt-4"><i class="fa-solid fa-wand-magic-sparkles me-1"></i>
+                                Skills</a>
+                        </li>
+                        <li><a href="#portfolio" class="mb-4 mt-4"><i class="fa-solid fa-table-cells me-1"></i>
+                                Portfolio</a></li>
+                        <li><a href="#contact"><i class="fa-solid fa-envelope me-1"></i> Contact</a></li>
+                    </ul>
+                    <div class="footer mt-5">
+                        <p>Social</p>
+                        <div class="icons d-flex">
+                            <div class="icon me-4">
+                                <a href="https://www.facebook.com/profile.php?id=100012970092361"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+                            <div class="icon me-4">
+                                <a href="https://www.linkedin.com/in/abdelrahman-khaled12/"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://github.com/Abdelrahmankhaled12"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Button Menu -->
+    <!-- start Body -->
+    <div class="body pt-5">
+        <div class="container">
+            <!-- Start Home -->
+            <div class="home pb-5 pt-5 wow animate__fadeInUp" id="home" data-wow-duration="2s">
+                <div class="title">
+                    <i class="fa-solid fa-house me-1"></i> INTRODUCE
+                </div>
+                <h1>Welcome to my website! I'm <span>Abdelrahman Khaled</span>, a Front End Engineer passionate about
+                    designing and
+                    developing amazing user experiences. We hope you enjoy browsing my site.</h1>
+                <p class="mt-5">I design and code beautifully simple things and i love what i do. Just simple like that!
+                </p>
+                <div class="icon">
+                    <a href="#portfolio">
+                        <img src="/images/round-text.png" alt="">
+                        <i class="fa-solid fa-arrow-down-long"></i></a>
+                </div>
+                <div class="flex d-flex text-center">
+                    <div class="box me-5">
+                        <h1>2+</h1>
+                        <p>years of <br> experience</p>
+                    </div>
+                    <div class="box">
+                        <h1>20+</h1>
+                        <p>Projects completed</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Home -->
+            <!-- Start About -->
+            <div class="about pt-5 pb-5 wow  animate__fadeInUp" data-wow-duration="2s" id="about">
+                <div class="title">
+                    <i class="fa-solid fa-user me-1"></i> ABOUT
+                </div>
+                <h1>A compelling story can elevate a good design to <span>greatness</span></h1>
+                <p class="mt-4 mb-2">I am a student in the field of computer science and artificial intelligence, and
+                    have been learning about web design and development for the past two years. I have executed numerous
+                    designs and worked as a freelancer on various projects. I am passionate about programming and
+                    constantly strive to improve my skills and capabilities to compete effectively. I am confident that
+                    I will achieve my goals soon.</p>
+                <p>I enjoy challenging myself to learn new techniques and apply them in my projects. I love working with
+                    a team and exchanging ideas and learning from others. I am always looking to improve the user
+                    experience and make designs more attractive and user-friendly. I am interested in artificial
+                    intelligence technologies and want to apply them in web design and development. I believe that
+                    innovation and creativity are the keys to success in web design.</p>
+            </div>
+            <!-- End About -->
+            <!-- Start Resume -->
+            <div class="resume pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="resume">
+                <div class="title">
+                    <i class="fa-solid fa-briefcase me-1"></i> RESUME
+                </div>
+                <h1>Education & <span>Experience</span></h1>
+                <ul class="ul-1 mt-4">
+                    <li class="li wow animate__fadeInLeft" data-wow-duration="2s">
+                        <ul>
+                            <li class="li-1">2022 - Present</li>
+                            <li>Front End Developer</li>
+                            <li class="mb-5">Web Designer</li>
+                        </ul>
+                    </li>
+                    <li class="li wow animate__fadeInUp" data-wow-duration="2s">
+                        <ul>
+                            <li class="li-1">2021 - Present</li>
+                            <li>Studying at the Faculty of Computer Science and Artificial Intelligence.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Resume -->
+            <!-- Start Services -->
+            <div class="services pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="services">
+                <div class="title">
+                    <i class="fa-solid fa-server me-1"></i> SERVICES
+                </div>
+                <h1 class="mb-4">My <span>Specializations</span></h1>
+                <div class="box mt-4 wow animate__fadeInUp" data-wow-duration="2s">
+                    <div class="head d-flex justify-content-between align-items-center mb-2">
+                        <h4>Website development</h4>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <p>Thanks to my website development skills, I am capable of creating professional websites,
+                        customizing them to meet clients' needs, and optimizing them to achieve their online objectives.
+                    </p>
+                </div>
+                <div class="box mt-4 animate__fadeInUp" data-wow-duration="2s">
+                    <div class="head d-flex justify-content-between align-items-center mb-2">
+                        <h4>Create websites</h4>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <p>My website development skills include HTML, CSS, JavaScript, and other web technologies, which
+                        enable me to create responsive and dynamic websites that work seamlessly across all devices.</p>
+                </div>
+                <div class="box mt-4 animate__fadeInUp" data-wow-duration="2s">
+                    <div class="head d-flex justify-content-between align-items-center mb-2">
+                        <h4>Website performance improvement</h4>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <p>Through my expertise in website development, I can identify and address performance issues on
+                        your website, ensuring that it loads quickly, performs well, and provides a smooth user
+                        experience.</p>
+                </div>
+            </div>
+            <!-- End Services -->
+            <!-- Start skills -->
+            <div class="skills pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="skills">
+                <div class="title">
+                    <i class="fa-solid fa-wand-magic-sparkles me-1"></i> Skills
+                </div>
+                <h1>My <span>Advantages</span></h1>
+                <div class="row mt-4">
+                    <div class="col-lg-3 col-md-3 col-sm-6 mb-4 wow animate__fadeInLeft" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-96.png"
+                                    alt="">
+                            </div>
+                            <p>Html</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  mb-4 wow animate__fadeInLeft" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills/icons8-css3-96.png" alt="">
+                            </div>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  mb-4 wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills//icons8-javascript-96.png" alt="">
+                            </div>
+                            <p>JS</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  mb-4 wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills/icons8-react-96.png" alt="">
+                            </div>
+                            <p>react</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  mb-4 wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills/icons8-tailwindcss-96.png" alt="">
+                            </div>
+                            <p>tailwind</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6  mb-4 wow animate__fadeInUp" data-wow-duration="2s">
+                        <div class="box text-center">
+                            <div class="img">
+                                <img src="./images/skills/icons8-bootstrap-96.png" alt="">
+                            </div>
+                            <p>bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End skills -->
+            <!-- Start portfolio -->
+            <div class="portfolio pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="portfolio">
+                <div class="title">
+                    <i class="fa-solid fa-table-cells me-1"></i> PORTFOLIO
+                </div>
+                <h1>Featured <span>Projects</span></h1>
+                <div class="boxes">
+                    <div class="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
+                        <div class="owl-carousel owl-theme">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-1.jpg" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-2.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-3.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-4.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-5.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-6.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-7.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-8.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-9.png" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-sleep-station/image-10.png" alt="">
+                        </div>
+                        <div class="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3">
+                            <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/">
+                                <h4>Sleep Station - E-Commerce</h4>
+                            </a>
+                            <div class="source d-flex">
+                                <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/" class="me-2"><i class="fa-solid fa-laptop-code"></i></a>
+                                <a href="https://github.com/Abdelrahmankhaled12/Sleep-Station"><i class="fa-solid fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
+                        <div class="owl-carousel owl-theme">
+                            <img class="owl-lazy" data-src="./images/projects/project-apex/image-1.webp" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-apex/image-2.png" alt="">
+                        </div>
+                        <div class="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3">
+                            <a href="https://abdelrahmankhaled12.github.io/APEX-template/">
+                                <h4>APEX - Template</h4>
+                            </a>
+                            <div class="source d-flex">
+                                <a href="https://abdelrahmankhaled12.github.io/APEX-template/" class="me-2"><i class="fa-solid fa-laptop-code"></i></a>
+                                <a href="https://github.com/Abdelrahmankhaled12/APEX-template"><i class="fa-solid fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
+                        <div class="owl-carousel owl-theme">
+                            <img class="owl-lazy" data-src="./images/projects/project-cryptocoin/image-1.webp" alt="">
+                            <img class="owl-lazy" data-src="./images/projects/project-cryptocoin/image-2.png" alt="">
+                        </div>
+                        <div class="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3">
+                            <a href="https://abdelrahmankhaled12.github.io/CryptoCoin-template/">
+                                <h4>CryptoCoin - Template</h4>
+                            </a>
+                            <div class="source d-flex">
+                                <a href="https://abdelrahmankhaled12.github.io/CryptoCoin-template/" class="me-2"><i class="fa-solid fa-laptop-code"></i></a>
+                                <a href="https://github.com/Abdelrahmankhaled12/CryptoCoin-template"><i class="fa-solid fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End portfolio -->
+            <!-- Start Contact -->
+            <div class="contact pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="contact">
+                <div class="title">
+                    <i class="fa-solid fa-envelope me-1"></i> Contact
+                </div>
+                <h1>Let's Work <span>Together!</span></h1>
+                <form action="" class="mt-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com" required>
+                                <label for="floatingInput">Your Full Name</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com" required>
+                                <label for="floatingInput">Your Email Address</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com" required>
+                                <label for="floatingInput">Your Number Phone</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                                    cols="30" rows="10"></textarea>
+                                <label for="floatingTextarea">Write your message here...</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="buttonStyle mt-4">Send Message</button>
+                </form>
+            </div>
+            <!-- End Contact -->
+
+
+        </div>
+    </div>
+    <!-- End Body -->
+    <!-- Owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Wow Js -->
+    <script src="js/wow.min.js"></script>
+    <!-- File Script Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- File Script  main-->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
