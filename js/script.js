@@ -10,8 +10,6 @@ let menu = document.querySelectorAll(".menu ul li a");
 let menuButton = document.querySelectorAll(" .ul-1 li a");
 
 
-console.log(aboutSection)
-
 window.onscroll = function () {
     if (window.scrollY >= homeSection.offsetTop - 500) {
         menu.forEach(item => item.classList.remove("active"));
@@ -65,5 +63,18 @@ $('.owl-carousel').owlCarousel({
     items:1,
     lazyLoad:true,
     loop:true,
-    margin:10
+    dots: false,
+    margin:10,
+    nav: true,
 });
+
+
+let links = document.querySelectorAll(".ul-1 li a");
+
+links.forEach(link=>{
+    link.addEventListener("click",()=>{
+        setTimeout(()=>{
+            document.getElementById("close").click();
+        },1000 / 1.5)
+    })
+})
