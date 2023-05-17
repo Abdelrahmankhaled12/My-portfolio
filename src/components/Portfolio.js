@@ -40,8 +40,8 @@ function Portfolio() {
                             <h4>Accounting office</h4>
                         </a>
                         <div className="source d-flex">
-                            <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
-                            <a href="https://github.com/Abdelrahmankhaled12/Sleep-Station"> Repo <i className="fa-solid fa-code ms-1" /></a>
+                            <a href="https://abdelrahmankhaled12.github.io/Accounting-office/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
+                            <a href="https://github.com/Abdelrahmankhaled12/Accounting-office"> Repo <i className="fa-solid fa-code ms-1" /></a>
                         </div>
                     </div>
                 </div>
