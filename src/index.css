@@ -514,11 +514,6 @@ video {
     width: 100%;
 }
 
-@media(max-width:767px){
-    .portfolio .box .imageProject {
-        height: 300px;
-    }    
-}
 
 .portfolio .box a {
     text-decoration: none;

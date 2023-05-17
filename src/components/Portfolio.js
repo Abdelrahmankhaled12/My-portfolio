@@ -1,6 +1,7 @@
 import HeaderTitle from "./HeaderTitle";
 import Title from "./Title";
 import imageProject1 from "../images/projects/project-1.png"
+import imageProject2 from "../images/projects/project-2.png"
 import html from "../images/icons/html.png"
 import css from "../images/icons/css.png"
 import js from "../images/icons/js.png"
@@ -24,24 +25,43 @@ function Portfolio() {
             <div className="boxes">
                 <div className="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
                     <img className="imageProject" src={imageProject1} alt="" />
-                    <div className="tools d-flex ms-2">
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={bootstrap} alt="" />
-                        <img className="me-2" src={emailjs} alt="" />
-                        <img className="me-2" src={wow} alt="" />
-                        <img src={sweet} alt="" />
-
-
+                    <div className="tools d-flex ms-2 flex-wrap">
+                        <img className="me-2 mt-2" src={html} alt="" />
+                        <img className="me-2 mt-2" src={css} alt="" />
+                        <img className="me-2 mt-2" src={js} alt="" />
+                        <img className="me-2 mt-2" src={bootstrap} alt="" />
+                        <img className="me-2 mt-2" src={emailjs} alt="" />
+                        <img className="me-2 mt-2" src={wow} alt="" />
+                        <img className="me-2 mt-2" src={sweet} alt="" />
                     </div>
-                    <div className="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3">
+                    <div className="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3 ">
                         <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/">
                             <h4>Accounting office</h4>
                         </a>
                         <div className="source d-flex">
                             <a href="https://abdelrahmankhaled12.github.io/Accounting-office/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
                             <a href="https://github.com/Abdelrahmankhaled12/Accounting-office"> Repo <i className="fa-solid fa-code ms-1" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
+                    <img className="imageProject" src={imageProject2} alt="" />
+                    <div className="tools d-flex ms-2 flex-wrap">
+                        <img className="me-2 mt-2" src={html} alt="" />
+                        <img className="me-2 mt-2" src={css} alt="" />
+                        <img className="me-2 mt-2" src={js} alt="" />
+                        <img className="me-2 mt-2" src={bootstrap} alt="" />
+                        <img className="me-2 mt-2" src={emailjs} alt="" />
+                        <img className="me-2 mt-2" src={wow} alt="" />
+                        <img className="me-2 mt-2" src={sweet} alt="" />
+                    </div>
+                    <div className="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3">
+                        <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/">
+                            <h4>Sleep Station - E-Commerce</h4>
+                        </a>
+                        <div className="source d-flex">
+                            <a href="https://abdelrahmankhaled12.github.io/Sleep-Station/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
+                            <a href="https://github.com/Abdelrahmankhaled12/Sleep-Station"> Repo <i className="fa-solid fa-code ms-1" /></a>
                         </div>
                     </div>
                 </div>
