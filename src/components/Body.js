@@ -4,6 +4,7 @@ import Resume from "./Resume";
 import Services from "./Services";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Portfolio from "./Portfolio";
 
 
 
@@ -16,6 +17,7 @@ function Body() {
                 <Resume />
                 <Services />
                 <Skills />
+                <Portfolio />
                 <Contact />
             </div>
         </div>
