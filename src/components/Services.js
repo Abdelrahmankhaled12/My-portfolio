@@ -9,15 +9,18 @@ function Services() {
 
             <HeaderTitle title="My " span="Specializations" />
 
-            <BoxServices title="Website performance improvement" description="Thanks to my website development skills, I am capable of creating professional websites,
-                    customizing them to meet clients' needs, and optimizing them to achieve their online objectives." />
+            <BoxServices title="Website Design" description="Convert PSD, XD, Figma Designs to websites." />
 
-            <BoxServices title="Create websites" description="My website development skills include HTML, CSS, JavaScript, and other web technologies, which
+            <BoxServices title="Mobile Friendly" description="My website development skills include HTML, CSS, JavaScript, and other web technologies, which
                     enable me to create responsive and dynamic websites that work seamlessly across all devices." />
 
             <BoxServices title="Website performance improvement" description="Through my expertise in website development, I can identify and address performance issues on
                     your website, ensuring that it loads quickly, performs well, and provides a smooth user
                     experience." />
+                    
+            <BoxServices title="Landing Pages" description="Create landing for your business and Products." />
+            <BoxServices title="Portfolio Design" description="Creating a personal website makes you and your customers more confident." />
+
         </div>
     )
 }
