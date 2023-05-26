@@ -22,12 +22,12 @@ function Skills() {
                 <BoxSkills skill="Html" image={image1} />
                 <BoxSkills skill="CSS" image={image2} />
                 <BoxSkills skill="JS" image={image3} />
-                <BoxSkills skill="react" image={image4} />
-                <BoxSkills skill="tailwind" image={image5} />
-                <BoxSkills skill="bootstrap" image={image6} />
-                <BoxSkills skill="bootstrap" image={image7} />
-                <BoxSkills skill="bootstrap" image={image8} />
-                <BoxSkills skill="bootstrap" image={image9} />
+                <BoxSkills skill="React" image={image4} />
+                <BoxSkills skill="Tailwind" image={image5} />
+                <BoxSkills skill="Bootstrap" image={image6} />
+                <BoxSkills skill="Material Ui" image={image7} />
+                <BoxSkills skill="Redux" image={image8} />
+                <BoxSkills skill="Typescript" image={image9} />
 
             </div>
         </div>
