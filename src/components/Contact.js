@@ -6,7 +6,7 @@ function Contact() {
         <div className="contact pt-5 pb-5 wow animate__fadeInUp" data-wow-duration="2s" id="contact">
             <Title title="Contact" icon="fa-solid fa-envelope me-1"/>
             <HeaderTitle title="Let's Work " span="Together!"/>
-            <form action className="mt-4">
+            <form action="" className="mt-4">
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="form-floating mb-3">
