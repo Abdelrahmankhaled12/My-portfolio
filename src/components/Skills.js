@@ -5,6 +5,10 @@ import image3 from "../images/skills//icons8-javascript-96.png"
 import image4 from "../images/skills/icons8-react-96.png"
 import image5 from "../images/skills/icons8-tailwindcss-96.png"
 import image6 from "../images/skills/icons8-bootstrap-96.png"
+import image7 from "../images/skills/mui.png"
+import image8 from "../images/skills/icons8-redux-96.png"
+import image9 from "../images/skills/icons8-typescript-96.png"
+
 import HeaderTitle from "./HeaderTitle";
 import Title from "./Title";
 
@@ -21,6 +25,10 @@ function Skills() {
                 <BoxSkills skill="react" image={image4} />
                 <BoxSkills skill="tailwind" image={image5} />
                 <BoxSkills skill="bootstrap" image={image6} />
+                <BoxSkills skill="bootstrap" image={image7} />
+                <BoxSkills skill="bootstrap" image={image8} />
+                <BoxSkills skill="bootstrap" image={image9} />
+
             </div>
         </div>
 
