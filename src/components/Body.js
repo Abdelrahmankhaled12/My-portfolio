@@ -11,7 +11,7 @@ import Portfolio from "./Portfolio";
 function Body() {
     return (
         <div className="body pt-5">
-            <div className="container mx-auto px-4">
+            <div className="container ml-auto px-4">
                 <Home />
                 <About />
                 <Resume />
