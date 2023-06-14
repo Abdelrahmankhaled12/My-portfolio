@@ -21,7 +21,7 @@ function App() {
         live: false,
       });
       wow.init();
-    }, 4050);
+    }, 4010);
 
   }, []);
 
