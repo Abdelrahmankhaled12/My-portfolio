@@ -4,8 +4,9 @@ import PersonalData from './components/PersonalData';
 import Menu from './components/Menu';
 import MenuButton from './components/MenuButton';
 import Spinner from './components/Spinner';
-
 import { useState, useEffect } from 'react';
+import WOW from 'wowjs';
+import 'animate.css/animate.css';
 
 function App() {
   const [showSpinner, setShowSpinner] = useState(true);
@@ -14,6 +15,14 @@ function App() {
     setTimeout(() => {
       setShowSpinner(false);
     }, 4000);
+
+    setTimeout(() => {
+      const wow = new WOW.WOW({
+        live: false,
+      });
+      wow.init();
+    }, 4050);
+
   }, []);
 
   let bodyAPP = <>
@@ -27,7 +36,7 @@ function App() {
   </>
   return (
     <div className="App">
-      {showSpinner ? <Spinner />  : bodyAPP }
+      {showSpinner ? <Spinner /> : bodyAPP}
     </div>
   );
 }
