@@ -7,7 +7,7 @@ function PersonalData() {
                 <div className="container p-3">
                     <div className="d-flex justify-content-between align-items-center">
                         <h6>Abdelrahman</h6>
-                        <h6>Full Stack Developer</h6>
+                        <h6>Front End Developer</h6>
                     </div>
                     <div className="image text-center">
                         <img src={image} alt="" />
