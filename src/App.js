@@ -9,7 +9,7 @@ import WOW from 'wowjs';
 import 'animate.css/animate.css';
 
 function App() {
-  const [showSpinner, setShowSpinner] = useState(false);
+  const [showSpinner, setShowSpinner] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
