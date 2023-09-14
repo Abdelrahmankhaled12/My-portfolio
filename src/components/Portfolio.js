@@ -29,26 +29,6 @@ function Portfolio() {
             <Title title="PORTFOLIO" icon="fa-solid fa-table-cells me-1" />
             <HeaderTitle title="Featured " span="Projects" />
             <div className="boxes">
-            <div className="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
-                    <img className="imageProject" src={movix} alt="" />
-                    <div className="tools d-flex ms-2 flex-wrap">
-                        <img className="me-2 mt-2" src={react} alt="" />
-                        <img className="me-2 mt-2" src={sass} alt="" />
-                        <img className="me-2 mt-2" src={redux} alt="" />
-                        <img className="me-2 mt-2" src={js} alt="" />
-                    </div>
-                    <div className="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3 ">
-                        <a href="https://abdelrahmankhaled12.github.io/Accounting-office/">
-                            <h4>Movix</h4>
-                        </a>
-                        <div className="source d-flex">
-                            <a href="https://movix-ui.netlify.app/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
-                            <a href="https://github.com/Abdelrahmankhaled12/Movie"> Repo <i className="fa-solid fa-code ms-1" /></a>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div className="box wow animate__fadeInUp  mt-5" data-wow-duration="2s">
                     <img className="imageProject" src={imageProject1} alt="" />
                     <div className="tools d-flex ms-2 flex-wrap">
