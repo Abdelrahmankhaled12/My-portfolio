@@ -37,7 +37,7 @@ function Portfolio() {
                         <img className="me-2 mt-2" src={js} alt="" />
                     </div>
                     <div className="flex d-flex justify-content-between align-items-center mt-2 ms-3 me-3 ">
-                        <a href="https://abdelrahmankhaled12.github.io/Accounting-office/">
+                        <a href="https://movix-ui.netlify.app/">
                             <h4>Movix</h4>
                         </a>
                         <div className="source d-flex">
