@@ -42,7 +42,7 @@ function Portfolio() {
                         </a>
                         <div className="source d-flex">
                             <a href="https://movix-ui.netlify.app/" className="me-2">Live Demo <i className="fa-solid fa-laptop-code ms-1" /></a>
-                            <a href="https://github.com/Abdelrahmankhaled12/Movie"> Repo <i className="fa-solid fa-code ms-1" /></a>
+                            <a href="https://github.com/Abdelrahmankhaled12/Movix"> Repo <i className="fa-solid fa-code ms-1" /></a>
                         </div>
                     </div>
                 </div>
