@@ -1,5 +1,5 @@
 import image from "../images/me/photo_2023-04-01_20-50-54.jpg"
-
+import iconUpwork from '../images/upwork.png'
 function PersonalData() {
     return (
         <>
@@ -20,6 +20,9 @@ function PersonalData() {
                         </div>
                         <div className="icon">
                             <a href="https://www.linkedin.com/in/abdelrahman-khaled12/"><i className="fa-brands fa-linkedin" /></a>
+                        </div>
+                        <div className="icon">
+                            <a href="https://www.upwork.com/freelancers/~01b4ff0c8a80509900"><i>{iconUpwork}</i></a>
                         </div>
                     </div>
                     <div className="button">
