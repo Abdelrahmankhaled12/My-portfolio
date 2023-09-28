@@ -11,7 +11,7 @@ function Resume() {
             <li className="li wow animate__fadeInLeft" data-wow-duration="2s">
                     <ul>
                         <li className="li-1">2022 - Present</li>
-                        <li>I work as a freelancer on the Upwork platform</li>
+                        <li  className="mb-5">I work as a freelancer on the Upwork platform</li>
                     </ul>
                 </li>
                 <li className="li wow animate__fadeInLeft" data-wow-duration="2s">
