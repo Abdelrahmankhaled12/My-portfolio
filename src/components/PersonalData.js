@@ -1,5 +1,4 @@
 import image from "../images/me/photo_2023-04-01_20-50-54.jpg"
-import iconUpwork from '../images/upwork.png'
 
 function PersonalData() {
     return (
