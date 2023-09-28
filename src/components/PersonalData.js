@@ -22,9 +22,6 @@ function PersonalData() {
                         <div className="icon">
                             <a href="https://www.linkedin.com/in/abdelrahman-khaled12/"><i className="fa-brands fa-linkedin" /></a>
                         </div>
-                        <div className="icon">
-                            <a href="https://www.upwork.com/freelancers/~01b4ff0c8a80509900"><img src={iconUpwork} alt=".."/></a>
-                        </div>
                     </div>
                     <div className="button">
                         <a href="#contact" className="buttonStyle"><i className="fa-regular fa-envelope" /> HIRE ME!</a>
