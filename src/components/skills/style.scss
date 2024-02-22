@@ -1,0 +1,38 @@
+@import '../../mixins.scss';
+
+.skills {
+    padding: 50px 0px;
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @include sm {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @include md {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .box {
+            margin: 10px 0px;
+            .img {
+                border: 2px solid rgb(86, 86, 86);
+                border-radius: 85px;
+                padding: 44px 25px 38px;
+                margin-bottom: 15px;
+                transition: 0.5s;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+                &:hover {
+                    border: 2px solid var(--primary-color);
+                }
+            }
+            p {
+                font-size: 14px;
+                color: #fff;
+                margin: 0;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+    }
+}

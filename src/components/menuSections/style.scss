@@ -1,0 +1,121 @@
+@import '../../mixins.scss';
+
+.menuSections {
+    position: fixed;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: none;
+    @include xxl {
+        display: block;
+    }
+
+    ul {
+        border: 1px solid #565656;
+        padding: 15px 10px;
+        border-radius: 25px;
+        
+        li {
+            color: #999999;
+            display: block;
+            transition: 0.5s;
+            text-decoration: none;
+            position: relative;
+            margin: 1rem 0px;
+            cursor: pointer;
+
+            &.active {
+                color: var(--primary-color);
+            }
+
+            &:first-of-type {
+                margin: 0;
+            }
+
+            &:last-of-type {
+                margin: 0;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: -22px;
+                top: 60%;
+                transform: translateY(-50%) scale(0);
+                border: 6px solid;
+                border-color: transparent transparent transparent #999999;
+                transition: 0.4s;
+            }
+
+            &::before {
+                content: "Home";
+                color: white;
+                background-color: #999999;
+                position: absolute;
+                left: -91px;
+                padding: 4px 0px;
+                font-size: 10px;
+                top: 30%;
+                transform: translateY(-50%) scale(0);
+                border-radius: 5px;
+                transition: 0.4s;
+                width: 70px;
+            }
+
+            &:hover {
+                color: var(--primary-color);
+
+                &::before {
+                    transform: translateY(0%) scale(1);
+                }
+
+                &::after {
+                    transform: translateY(0%) scale(1);
+                }
+
+            }
+
+            &:nth-of-type(2) {
+                &::before {
+                    content: "About";
+                }
+            }
+
+            &:nth-of-type(3) {
+                &::before {
+                    content: "Resume";
+                }
+            }
+
+            &:nth-of-type(4) {
+                &::before {
+                    content: "Services";
+                }
+            }
+            &:nth-of-type(5) {
+                &::before {
+                    content: "Skills";
+                }
+            }
+
+            &:nth-of-type(6) {
+                &::before {
+                    content: "Portfolio";
+                }
+            }
+
+            &:nth-of-type(7) {
+                &::before {
+                    content: "Feedback";
+                }
+            }
+
+            &:nth-of-type(8) {
+                &::before {
+                    content: "Contact";
+                }
+            }
+        }
+    }
+}

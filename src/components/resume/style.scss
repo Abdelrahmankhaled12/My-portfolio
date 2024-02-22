@@ -1,0 +1,48 @@
+.resume {
+    padding: 80px 0px;
+
+    ul {
+        position: relative;
+        list-style: none;
+
+        li:not(.li) {
+            margin: 10px 0;
+            font-size: 23px;
+            padding-left: 40px;
+
+            &.li-1 {
+                font-size: 15px;
+                color: #999999;
+                transition: 0.5s;
+            }
+        }
+
+        &:nth-of-type(1) {
+            &::after {
+                content: "";
+                top: 60%;
+                left: 8px;
+                background-color: #999999;
+                height: 100%;
+                width: 1px;
+                transform: translateY(-50%);
+                position: absolute;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    ul:not(.ul-1) {
+        &::before {
+            content: ".";
+            font-size: 70px;
+            top: 0%;
+            transform: translateY(-56%);
+            left: 0px;
+            position: absolute;
+            color: #999999;
+            z-index: 2;
+            transition: 0.5s;
+        }
+    }
+}

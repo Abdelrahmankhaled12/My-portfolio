@@ -1,0 +1,43 @@
+@mixin sm {
+    @media only screen and (min-width: 640px) {
+        @content;
+    }
+}
+
+@mixin mdd {
+    @media only screen and (min-width: 880px) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media only screen and (min-width: 1190px) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media only screen and (min-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media only screen and (min-width: 1290px) {
+        @content;
+    }
+}
+
+@mixin ellipsis($line: 2) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

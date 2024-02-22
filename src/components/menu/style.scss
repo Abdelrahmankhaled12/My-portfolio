@@ -1,0 +1,119 @@
+.btnMenu {
+    background-color: black;
+    color: white;
+    border: 1px solid #565656;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.menuButton {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20000;
+    background-color: rgba(0, 0, 0, 0.36);
+    height: 100vh;
+    width: 100%;
+    transform: translateX(0%);
+    transition: 0.5s;
+    display: flex;
+    box-shadow: 0px 4px 8px -4px rgba(108, 3, 255, 0.42);
+
+    .container {
+        background-color: black;
+        z-index: 20000;
+        width: 300px;
+        height: 100vh;
+
+        .headerMenu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 25px;
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                svg {
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+        }
+        .bodyMenu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            ul {
+                li {
+                    text-decoration: none;
+                    color: #999999;
+                    display: block;
+                    font-size: 17px;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    margin: 14px 0px;
+                    svg {
+                        color: #999999;
+                        transition: 0.5s;
+                        margin-right: 5px;
+                    }
+                    &:hover {
+                        color: white;
+                        letter-spacing: 1.4px;
+                        svg {
+                            color: var(--primary-color);
+                        }
+                    }
+                }
+            }
+            .footer {
+                margin-top: 50px;
+                p {
+                    font-size: 25px;
+                    margin-bottom: 5px;
+                }
+            }
+            .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 13px;
+                gap: 10px;
+                .icon {
+                    position: relative;
+                    display: block;
+                    color: #999999;
+                    width: 45px;
+                    height: 45px;
+                    border: 1px solid #565656;
+                    border-radius: 50%;
+                    transition: 0.5s;
+                    &:hover {
+                        color: var(--primary-color);
+                        border: 1px solid var(--primary-color);
+                    }
+                    svg {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menuButton.hide {
+    transform: translateX(100%);
+}

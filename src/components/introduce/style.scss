@@ -1,0 +1,78 @@
+@import '../../mixins.scss';
+
+.home {
+    padding: 50px 0px;
+    h1 {
+        line-height: 1.4;
+        font-size: 25px;
+        @include sm {
+            font-size: 35px;
+        }
+        span {
+            color: var(--primary-color);
+        }
+    }
+    p {
+        color: var(--secondary-color);
+        margin-top: 50px;
+    }
+    .icon {
+        div {
+            cursor: pointer;
+            position: relative;
+            border: 1px solid #565656;
+            width: 150px;
+            height: 150px;
+            display: block;
+            font-size: 25px;
+            border-radius: 50%;
+            color: white;
+            margin: 30px 0 0 auto;
+            img {
+                position: absolute;
+                top: 5%;
+                left: 7%;
+                width: 85%;
+                animation: anim 6s infinite linear;
+                transform-origin: center;
+            }
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .boxes {
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        .box {
+            h1 {
+                color: var(--primary-color);
+                margin: 10px 0;
+            }
+            p {
+                font-size: 21px;
+                text-transform: capitalize;
+                line-height: 1.2;
+                margin-top: 2px;
+            }
+        }
+    }
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+

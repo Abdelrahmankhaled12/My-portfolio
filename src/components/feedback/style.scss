@@ -1,0 +1,67 @@
+@import '../../mixins.scss';
+
+.feedback {
+    padding: 50px 0px;
+
+    .boxes {
+        border: 1px solid #565656;
+        border-radius: 20px;
+        transition: 0.5s;
+        margin: 15px 0px;
+        position: relative;
+    }
+
+    img {
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px !important;
+    }
+
+    &:hover {
+        .buttons {
+            opacity: 1;
+        }
+    }
+
+    .hide {
+        position: absolute;
+        transition: 0.5s;
+        left: 0;
+        opacity: 0;
+    }
+
+    .active {
+        opacity: 1;
+        position: relative;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 0px 10px;
+        transition: 0.5s;
+        opacity: 1;
+
+        button {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+            border-radius: 50%;
+            border: none;
+            transition: 0.5s;
+            cursor: pointer;
+            background-color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            color: white;
+
+            &:hover {
+                background-color: transparent;
+                color: var(--primary-color);
+            }
+        }
+    }
+}

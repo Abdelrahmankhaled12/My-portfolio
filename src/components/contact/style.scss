@@ -1,0 +1,59 @@
+@import '../../mixins.scss';
+
+.contact {
+    padding: 50px 0px;
+    form {
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            @include sm {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 18px 12px;
+            margin-top: 12px;
+            border-radius: 4px;
+            outline: none;
+            border: 1px solid #565656;
+            font-size: 15px;
+            background-color: transparent;
+            color: white;
+            &::placeholder {
+                color: #999999;
+                font-weight: 500;
+            }
+        }
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 18px 12px;
+            margin-top: 12px;
+            border-radius: 4px;
+            outline: none;
+            border: 1px solid #565656;
+            font-size: 15px;
+            background-color: transparent;
+            color: white;
+            resize: vertical;
+
+            &::placeholder {
+                color: #999999;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        button {
+            padding: 15px 45px;
+            font-size: 17px;
+            display: block;
+            width: fit-content;
+            margin-left: auto;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    }
+}

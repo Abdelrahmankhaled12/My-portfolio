@@ -1,0 +1,53 @@
+@import '../../mixins.scss';
+
+.portfolio {
+    padding: 50px 0px;
+
+    .box {
+        margin: 50px 0px;
+        img {
+            width: 100%;
+            @include md {
+                width: 750px;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        .titleNameProject {
+            display: block;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 600;
+            color: white;
+            text-transform: capitalize;
+        }
+
+        p {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        .source {
+            display: flex;
+            justify-content: end;
+            gap: 10px;
+            align-items: center;
+
+            a {
+                color: #999999;
+                border: 1px solid #565656;
+                display: block;
+                border-radius: 15px;
+                position: relative;
+                transition: 0.5s;
+                padding: 5px 15px;
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../mixins.scss";
+
+.contentWrapper {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding:0px 20px;
+    @include sm {
+        padding: 0px 50px;
+    }
+
+    @include lg {
+        max-width: 812px;
+        margin: 0 0 0 331px;
+        padding: 12px 20px;
+    }
+
+    @include xl {
+        max-width: 880px;
+        margin: 0 0 0 380px;
+        padding: 12px 20px;
+    }
+}
