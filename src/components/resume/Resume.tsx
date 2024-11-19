@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Resume = () => {
     return (
-        <section className="resume wow animate__fadeInUp" data-wow-duration="2s" id="resume">
+        <section className="resume" data-aos="fade-up"
+        data-aos-delay="300" data-aos-duration="1000" id="resume">
             <ContentWrapper>
                 <div className="title">
                     <FontAwesomeIcon icon={faBriefcase} /> RESUME

@@ -30,7 +30,8 @@ const Feedback = () => {
 
 
     return (
-        <section className="feedback wow animate__fadeInUp" data-wow-duration="2s" id="feedback">
+        <section className="feedback" data-aos="fade-up"
+        data-aos-delay="300" data-aos-duration="1000" id="feedback">
             <ContentWrapper>
                 <div className="title">
                     <FontAwesomeIcon icon={faComments} /> Feedbacks

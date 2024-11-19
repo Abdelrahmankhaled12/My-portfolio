@@ -12,6 +12,7 @@ import reduxImage from '../assets/icons8-redux-96.png'
 import typescriptImage from '../assets/icons8-typescript-96.png'
 import nextImage from '../assets/icons8-next.js-96.png'
 import complex from '../assets/ecommerce-removebg-preview.png'
+import mdone from '../assets/mdone.png'
 import Apex from '../assets/project-4.png';
 import feedback1 from '../assets/feedback1.png'
 import feedback2 from '../assets/feedback4.png'
@@ -19,6 +20,7 @@ import feedback3 from '../assets/feedback5.png'
 import feedback4 from '../assets/feedback3.png'
 import feedback5 from '../assets/feedback2.png'
 import feedback6 from '../assets/feedback6.png'
+import Motion from '../assets/Motion.png';
 
 export const services = [
     {
@@ -89,6 +91,20 @@ export const skills = [
 
 
 export const projects = [
+    {
+        img:mdone,
+        name:"Mdone",
+        description: "Developed a web platform to help patients find doctors, view their availability, and book appointments directly. The platform includes features like real-time chat between patients and clinic staff, doctor profiles with specializations, and location-based search. A doctor dashboard allows management of appointments, statistics, schedules, and patient communications. Technologies Used: React, SASS, Material-UI, Axios, Firebase, MUI Charts, AgoraRTC, Agora RTM, Redux, AOS Animation ",
+        gitHup: "",
+        demo: "https://www.mdone.net/"
+    },
+    {
+        img:Motion,
+        name:"Motion",
+        description: "I developed a comprehensive fleet management and logistics platform designed to streamline operations for businesses across North America. The platform features an advanced dashboard for real-time fleet tracking, performance analytics, and maintenance scheduling, alongside tools for managing fuel cards with significant discounts of up to 45¢/gal in the US and 10¢/L in Canada. Additionally, it includes an invoice factoring solution to improve cash flow and accelerate payment processing for logistics companies. With a user-friendly interface, seamless authentication workflows, and robust SEO optimizations using meta tags, OpenGraph, and Twitter Cards, this project integrates modern technologies like Next.js and TypeScript to deliver an all-in-one solution that enhances operational efficiency and reduces costs. ",
+        gitHup: "",
+        demo: "https://www.withmotion.com/"
+    },
     {
         img:complex,
         name:"E-commerce",

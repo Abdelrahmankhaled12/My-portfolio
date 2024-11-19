@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
     return (
-        <section className="contact wow animate__fadeInUp" data-wow-duration="2s" id="contact">
+        <section className="contact" data-aos="fade-up"
+        data-aos-delay="300" data-aos-duration="1000" id="contact">
             <ContentWrapper>
                 <div className="title">
                 <FontAwesomeIcon icon={faEnvelope} /> CONTACT

@@ -1,0 +1,15 @@
+.effect {
+    .children {
+        animation: content-animation 1s ease forwards;
+    }
+}
+
+@keyframes content-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

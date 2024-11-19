@@ -12,7 +12,8 @@ interface BoxServicesProps {
 
 const BoxServices: React.FC<BoxServicesProps> = ({ title, description }) => {
     return (
-        <div className="boxService animate__fadeInUp" data-wow-duration="2s">
+        <div className="boxService" data-aos="fade-up"
+        data-aos-delay="300" data-aos-duration="1000">
             <div className="head">
                 <h4>{title}</h4>
                 <FontAwesomeIcon icon={faCode} />

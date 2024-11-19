@@ -15,7 +15,8 @@ const BoxInfo = () => {
     };
 
     return (
-        <div className="boxInfo wow animate__fadeInLeft" data-wow-duration="1.5s">
+        <div className="boxInfo" data-aos="fade-right"
+        data-aos-delay="400" data-aos-duration="1500">
             <div className="content">
                 <div className="image">
                     <img src={image} alt="" />

@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
     return (
-        <section className="about wow animate__fadeInUp" data-wow-duration="2s" id="about">
+        <section className="about" data-aos="fade-up"
+        data-aos-delay="300" data-aos-duration="1000" id="about">
             <ContentWrapper>
                 <div className="title">
                     <FontAwesomeIcon icon={faUser} /> ABOUT

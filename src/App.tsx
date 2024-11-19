@@ -12,21 +12,32 @@ import Feedback from "./components/feedback/Feedback"
 import Resume from "./components/resume/Resume"
 import Animation from "./components/animation/Animation"
 import { useEffect, useState } from "react"
-import 'animate.css/animate.css';
+import 'aos/dist/aos.css';
+import Intro from "./components/intro/Intro"
+import Aos from 'aos'
+import Effect from "./components/effect/Effect"
 
 function App() {
 
   const [animationOff, setAnimationOff] = useState(true);
+  const [introOff, seIntroOff] = useState(true);
 
 
   useEffect(() => {
     animationOFF()
   }, [])
 
+
   const animationOFF = () => {
     setTimeout(() => {
       setAnimationOff(false)
-    }, 3600)
+      setTimeout(() => {
+        seIntroOff(false)
+        Aos.init({
+          once: true,
+        });
+      }, 3000)
+    }, 3000)
   }
 
 
@@ -36,20 +47,24 @@ function App() {
         animationOff ? (
           <Animation />
         ) : (
-          <>
-            <BackgroundVideo />
-            <BoxInfo />
-            <Introduce />
-            <About />
-            <Resume />
-            <Services />
-            <Skills />
-            <Portfolio />
-            <Feedback />
-            <Contact />
-            <ButtonMenu />
-            <MenuSections />
-          </>
+          introOff ? (
+            <Intro />
+          ) : (
+            <Effect>
+              <BackgroundVideo />
+              <BoxInfo />
+              <Introduce />
+              <About />
+              <Resume />
+              <Services />
+              <Skills />
+              <Portfolio />
+              <Feedback />
+              <Contact />
+              <ButtonMenu />
+              <MenuSections />
+            </Effect>
+          )
         )
       }
     </>
