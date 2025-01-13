@@ -21,7 +21,7 @@ const Introduce = () => {
                     <div className="title">
                         <FontAwesomeIcon icon={faHouse} /> INTRODUCE
                     </div>
-                    <h1>Welcome to my website! I'm <span>Abdelrahman Khaled</span>, a Front End Engineer passionate about
+                    <h1>Welcome to my website! I'm <span>Abdelrahman Khaled</span>, a Full Stack Engineer passionate about
                         designing and
                         developing amazing user experiences. We hope you enjoy browsing my site.</h1>
                     <p>I design and code beautifully simple things and i love what i do. Just simple like that!
@@ -34,11 +34,11 @@ const Introduce = () => {
                     </div>
                     <div className="boxes">
                         <div className="box">
-                            <h1>2+</h1>
+                            <h1>3+</h1>
                             <p>years of <br /> experience</p>
                         </div>
                         <div className="box">
-                            <h1>20+</h1>
+                            <h1>40+</h1>
                             <p>Projects completed</p>
                         </div>
                     </div>

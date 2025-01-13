@@ -1,6 +1,10 @@
 import movix from '../assets/movix.png'
 import accountingOffice from '../assets/project-1.png'
-import dashflow from '../assets/dashflow.png'
+// import dashflow from '../assets/dashflow.png'
+import  Motion from '../assets/Motion.png'
+import  Immigrateable from '../assets/Immigrateable.png'
+import  mindscaperx from '../assets/mindscaperx.png'
+
 import htmlImage from '../assets/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-96.png'
 import csssImage from'../assets/icons8-css3-96.png'
 import jsImage from '../assets/icons8-javascript-96.png'
@@ -11,7 +15,13 @@ import materialImage from '../assets/mui.png'
 import reduxImage from '../assets/icons8-redux-96.png'
 import typescriptImage from '../assets/icons8-typescript-96.png'
 import nextImage from '../assets/icons8-next.js-96.png'
-import complex from '../assets/ecommerce-removebg-preview.png'
+import laravel from '../assets/icons8-laravel-96.png'
+import php from '../assets/icons8-php-100.png'
+import sql from '../assets/icons8-mysql-96.png'
+import sass from '../assets/icons8-sass-96.png'
+
+// import complex from '../assets/ecommerce-removebg-preview.png'
+
 import mdone from '../assets/mdone.png'
 import Apex from '../assets/project-4.png';
 import feedback1 from '../assets/feedback1.png'
@@ -20,7 +30,6 @@ import feedback3 from '../assets/feedback5.png'
 import feedback4 from '../assets/feedback3.png'
 import feedback5 from '../assets/feedback2.png'
 import feedback6 from '../assets/feedback6.png'
-import Motion from '../assets/Motion.png';
 
 export const services = [
     {
@@ -42,6 +51,26 @@ export const services = [
     {
         title: "Portfolio Design",
         description: "Creating a personal website makes you and your customers more confident."
+    },
+    {
+        title: "Database Management",
+        description: "I design and manage databases like MySQL and MongoDB to ensure secure and efficient data storage."
+    },
+    {
+        title: "API Development",
+        description: "I build APIs to seamlessly connect the front-end and back-end of your applications."
+    },
+    {
+        title: "Payment Gateway Integration",
+        description: "I ensure secure integration with payment gateways like PayPal and Stripe to simplify transactions."
+    },
+    {
+        title: "Dynamic Features Development",
+        description: "I can add features like user registration systems, admin dashboards, and data analytics to your website."
+    },
+    {
+        title: "Ongoing Maintenance and Support",
+        description: "I provide continuous support to ensure your website runs smoothly and resolve any issues promptly."
     },
 ]
 
@@ -84,8 +113,24 @@ export const skills = [
         skill: "Typescript"
     },
     {
+        image: sass,
+        skill: "Sass"
+    },
+    {
         image: nextImage,
         skill: "NextJs"
+    },
+    {
+        image: php,
+        skill: "PhP"
+    },
+    {
+        image: sql,
+        skill: "MySQL"
+    },
+    {
+        image: laravel,
+        skill: "laravel"
     },
 ]
 
@@ -99,26 +144,41 @@ export const projects = [
         demo: "https://www.mdone.net/"
     },
     {
+        img:Immigrateable,
+        name:"Immigrateable",
+        description: "This project is a web application designed to help users apply for a Green Card. 🌍🌿🚀 The platform provides an intuitive user experience for visitors to Check eligibility for a Green Card, Learn about the benefits of winning a Green Card, Explore economic incentives for different job categories and Complete the application process with expert guidance. The application also offers subscription-based plans to assist users at different levels of support, including Pro, Elite, and VIP packages. ",
+        gitHup: "",
+        demo: "https://startyourgreencard.com/"
+    },
+    {
+        img:mindscaperx,
+        name:"MindscaperxRX",
+        description: "MindscapeRx is a modern and innovative platform designed to enhance mental health through a specialized low-dose ketamine treatment program. Built using Next.js for seamless performance and optimized SEO, the website ensures fast loading times and a smooth user experience. The design leverages Sass for creating a visually appealing and responsive interface that adapts perfectly to all devices. The platform features a clear and intuitive layout, guiding users through the program’s steps, supported by scientific data, engaging illustrations, and real-life success stories. With its combination of cutting-edge technologies and user-focused design, MindscapeRx provides a reliable and professional online presence, empowering users to take the first step toward improving their mental well-being. ",
+        gitHup: "",
+        demo: "https://mindscaperx.com/"
+    },
+    {
         img:Motion,
         name:"Motion",
         description: "I developed a comprehensive fleet management and logistics platform designed to streamline operations for businesses across North America. The platform features an advanced dashboard for real-time fleet tracking, performance analytics, and maintenance scheduling, alongside tools for managing fuel cards with significant discounts of up to 45¢/gal in the US and 10¢/L in Canada. Additionally, it includes an invoice factoring solution to improve cash flow and accelerate payment processing for logistics companies. With a user-friendly interface, seamless authentication workflows, and robust SEO optimizations using meta tags, OpenGraph, and Twitter Cards, this project integrates modern technologies like Next.js and TypeScript to deliver an all-in-one solution that enhances operational efficiency and reduces costs. ",
         gitHup: "",
         demo: "https://www.withmotion.com/"
     },
-    {
-        img:complex,
-        name:"E-commerce",
-        description: "Complex is an innovative e-commerce platform designed to revolutionize your online shopping experience. Built with React for a sleek front-end and Laravel for a robust back-end, Complex  combines the best of modern technology and user-centric design. With its fully responsive interface, you can shop seamlessly across all devices. Plus, rest assured with secure transactions facilitated by our integrated payment gateway.",
-        gitHup: "https://github.com/Abdelrahmankhaled12/E-commerce",
-        demo: "https://commercehubb.store/"
-    },
-    {
-        img:dashflow,
-        name:"Dashboard",
-        description: "This e-commerce dashboard is designed to provide a comprehensive overview of sales, inventory, and customer data. It features a user-friendly interface, it allows you to monitor transaction and the status of each order, and it empowers you to efficiently manage and analyze the core aspects of your e-commerce business.",
-        gitHup: "https://github.com/Abdelrahmankhaled12/Movix",
-        demo: "https://dashflow.store/"
-    },
+    
+    // {
+    //     img:complex,
+    //     name:"E-commerce",
+    //     description: "Complex is an innovative e-commerce platform designed to revolutionize your online shopping experience. Built with React for a sleek front-end and Laravel for a robust back-end, Complex  combines the best of modern technology and user-centric design. With its fully responsive interface, you can shop seamlessly across all devices. Plus, rest assured with secure transactions facilitated by our integrated payment gateway.",
+    //     gitHup: "https://github.com/Abdelrahmankhaled12/E-commerce",
+    //     demo: "https://commercehubb.store/"
+    // },
+    // {
+    //     img:dashflow,
+    //     name:"Dashboard",
+    //     description: "This e-commerce dashboard is designed to provide a comprehensive overview of sales, inventory, and customer data. It features a user-friendly interface, it allows you to monitor transaction and the status of each order, and it empowers you to efficiently manage and analyze the core aspects of your e-commerce business.",
+    //     gitHup: "https://github.com/Abdelrahmankhaled12/Movix",
+    //     demo: "https://dashflow.store/"
+    // },
     {
         img:movix,
         name:"movix",

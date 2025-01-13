@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <HeaderTitle title="A compelling story can elevate a good design to " span="greatness" />
                 <p className="mt-4 mb-2">I am a student in the field of computer science and artificial intelligence, and
-                    have been learning about web design and development for the past two years. I have executed numerous
+                    have been learning about web design and development for the past three years. I have executed numerous
                     designs and worked as a freelancer on various projects. I am passionate about programming and
                     constantly strive to improve my skills and capabilities to compete effectively. I am confident that
                     I will achieve my goals soon.</p>

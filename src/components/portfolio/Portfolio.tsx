@@ -1,7 +1,7 @@
 import HeaderTitle from '../headerTitleSection/HeaderTitle'
 import ContentWrapper from '../contentWrapper/ContentWrapper'
 import './style.scss'
-import { faCode, faLaptopCode , faTableCells } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode , faTableCells } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { projects } from '../../constants'
 
@@ -26,7 +26,6 @@ const Portfolio = () => {
                                 <p>{item.description}</p>
                                 <div className="source">
                                     <a href={item.demo} target='_blank'>Live Demo <FontAwesomeIcon icon={faLaptopCode} /></a>
-                                    <a href={item.gitHup} target='_blank'> Repo <FontAwesomeIcon icon={faCode} /></a>
                                 </div>
                             </div>
                         ))

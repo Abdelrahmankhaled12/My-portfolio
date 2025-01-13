@@ -3,7 +3,7 @@ import './style.scss'
 import { faGithub, faLinkedin, faUpwork } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import myCV from '../../assets/cv/Abdelrahman-Khaled.pdf'
+// import myCV from '../../assets/cv/Abdelrahman-Khaled.pdf'
 
 const BoxInfo = () => {
 
@@ -35,9 +35,9 @@ const BoxInfo = () => {
                     <a className="icon" target='_blank' href="https://www.linkedin.com/in/abdelrahman-khaled12/">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <button className="icon"  onClick={() => window.open(myCV)}>
+                    {/* <button className="icon"  onClick={() => window.open(myCV)}>
                         <span>CV</span>
-                    </button>
+                    </button> */}
                 </div>
                 <button
                     className="buttonStyle"

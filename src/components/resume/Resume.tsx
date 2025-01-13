@@ -14,6 +14,12 @@ const Resume = () => {
                 </div>
                 <HeaderTitle title="Education & " span="Experience" />
                 <ul>
+                <li className="li wow animate__fadeInLeft" data-wow-duration="2s">
+                        <ul>
+                            <li className="li-1">2023 - Present</li>
+                            <li>Back End Developer</li>
+                        </ul>
+                    </li>
                     <li className="li wow animate__fadeInLeft" data-wow-duration="2s">
                         <ul>
                             <li className="li-1">2023 - Present</li>
